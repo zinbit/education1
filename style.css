@@ -92,7 +92,7 @@ body {
     color: #4c505d;
 }
 
-.content-paragraph {
+.content-text {
     font-size: 14px;
     margin-bottom: 76px;
     line-height: 22px;
@@ -104,7 +104,7 @@ body {
     margin-right: 64px;
 }
 
-.content1 {
+.comment {
     background: #00d089;
     text-align: center;
     color: #e4e4e4;
@@ -112,14 +112,117 @@ body {
     padding-bottom: 98px;
 }
 
+.comment-text {
+    width: 867px;
+    text-align: left;
+    margin: 0 auto;
+    line-height: 1.6em;
+}
 
-.content1-headline {
-    text-transform: uppercase;
+.author {
     display: inline-block;
-    vertical-align: top;
-    margin-left: 10px;
+    margin-left: 38px; 
+    text-align: left; 
 }
 
-.comment {
-    margin-bottom: 68px;   
+.authors-name {
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 16px;
 }
+
+.authors-comment {
+    margin-bottom: 68px;
+    display: inline-block;
+    margin-left: 152px;
+}
+
+.photo {
+    display: inline-block;
+}
+
+.face {
+    display: block;
+}
+
+.navigation {
+    height: 518px;
+    text-align: center;
+    position: relative;
+    background-position: center;
+}
+
+.map {
+    height: 518px;
+}
+
+.circle {
+    width: 430px;
+    height: 430px;
+    border-radius: 50%;
+    font-size: 50px;
+    color: #fff;
+    line-height: 430px;
+    text-align: center;
+    background: rgb(255, 255, 255, 0.7);
+    position: absolute;
+    top: 52px;
+    left: 50%;
+    margin-left: -215px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    padding: 112px 83px 20px;
+    box-sizing: border-box;
+  }
+
+  .enter {
+    height: 100%;
+  }
+
+  .account {
+    display: block;
+  }
+
+  .login {
+    box-sizing: border-box;
+    width: 260px;
+    border: 1px solid #d8d8d8;
+    height: 30px;
+    margin-bottom: 14px;
+    padding: 10px 12px;
+    display: block;
+  }
+
+  .email {
+    box-sizing: border-box;
+    width: 260px;
+    border: 1px solid #d8d8d8;
+    height: 30px;
+    margin-bottom: 14px;
+    padding: 10px 12px;
+    display: block;
+  }
+
+  .name {
+    width: 100%;
+    height: 80px;
+    border: 1px solid #d8d8d8;
+    font-family: Arial;
+    padding: 12px 10px;
+    box-sizing: border-box;
+    resize: none;
+    display: block;
+    margin-bottom: 32px;
+  }
+
+  .start {
+    display: block;
+    margin-left: 96px;
+  }
+    
+  .footer {
+    height: 12px;
+    background: #00d089;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px;
+  }
