@@ -6,6 +6,7 @@
 .header {
     height: 88px;
     background-color: #6a97a2;
+    display: flex;
 }
 
 body {
@@ -65,6 +66,28 @@ body {
 .active {
     display: block;
 }
+
+#dots {
+    list-style:none;
+    padding:0px;
+    position: absolute;
+    left: 50%;
+    margin-left: -34.45px;
+    top: 85%;
+  
+  }
+  #dots li {
+    display:inline-block;
+    border-radius:10px;
+    width:10px;
+    height:10px;
+    margin: 0 5px;
+    background: #fff;
+    cursor:pointer;
+  }
+  #dots li.active {
+    background: #4c505d;
+  }
 
 .picture {
     background-size: cover;
@@ -133,7 +156,7 @@ body {
 }
 
 .comment-text {
-    width: 867px;
+    width: fit-content;
     text-align: left;
     margin: 0 auto;
     line-height: 1.6em;
